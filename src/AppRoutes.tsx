@@ -11,9 +11,9 @@ return (
     <Route path="/" element={<Bienvenida />} />
       {/* Ruta de login */}
     <Route path="/login" element={<Login />} />
-      {/* Ruta de la app (puedes agregar protección si lo deseas) */}
+      {/* Ruta de la app */}
     <Route path="/app" element={<App />} />
-     {/* Ruta de la app INVITADO (puedes agregar protección si lo deseas) */}
+     {/* Ruta del invitado*/}
     <Route path="/invitado" element={<Invitado />} />
       {/* Redirige cualquier ruta desconocida a la bienvenida */}
     <Route path="*" element={<Navigate to="/" />} />
